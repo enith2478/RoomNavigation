@@ -590,7 +590,7 @@ renderer.outputColorSpace = _three.SRGBColorSpace;
 renderer.toneMapping = _three.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 1.8;
 let position = 0;
-gltfLoader.load("./assets/the_king_s_hall/scene.gltf", function(gltf) {
+gltfLoader.load("./assets/the_kings_hall/scene.gltf", function(gltf) {
     const model = gltf.scene;
     scene.add(model);
     window.addEventListener("mouseup", function() {
